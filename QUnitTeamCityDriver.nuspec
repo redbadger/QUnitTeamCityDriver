@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>QUnitTeamCityDriver</id>
+    <version>1.0.0</version>
+    <title>QUnit TeamCity Driver</title>
+    <authors>Red Badger</authors>
+    <owners>Red Badger Consulting Ltd</owners>
+    <projectUrl>https://github.com/redbadger/QUnitTeamCityDriver</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Allows TeamCity to execute QUnit JavaScript unit tests using PhantomJS</description>
+    <summary />
+    <language>en-GB</language>
+    <tags>qunit, teamcity, phantomjs</tags>
+  </metadata>
+  <files>
+    <file src="QUnitTeamCityDriver\QUnitTeamCityDriver.js" target="content\Scripts\QUnitTeamCityDriver.js" />
+    <file src="QUnitTeamCityDriver\QUnitTeamCityDriver.phantom.js" target="content\Scripts\QUnitTeamCityDriver.phantom.js" />
+  </files>
+</package>
