@@ -36,12 +36,12 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="jquery-1.6.2.js" />
-    <Content Include="qunit.css" />
-    <Content Include="qunit.js" />
-    <Content Include="run-qunit.js" />
-    <Content Include="teamcity.js" />
-    <Content Include="Tests.htm" />
+    <Content Include="Example\jquery-1.6.2.js" />
+    <Content Include="Example\qunit.css" />
+    <Content Include="Example\qunit.js" />
+    <Content Include="QUnitTeamCityDriver.phantom.js" />
+    <Content Include="QUnitTeamCityDriver.js" />
+    <Content Include="Example\Tests.htm" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
